@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Demo</title>
+</head>
+<body>
+    <h1>Forms Demo</h1>
+    <form action="/Hyewon">
+        <p>
+            <label for="Username">Enter a Username:</label>
+            <input id="Username" type="text" placeholder="Username" name="username">
+        </p>
+        <p>
+            <label for="Password">Enter a Password:</label>
+            <input id="Password" type="password" placeholder="Enter your password" name="password">
+        </p>
+        <p>
+            <label for="Color">Choose your Color:</label>
+            <input id="Color" type="color" name="color">
+        </p>
+        <p>
+            <label for="Number">Enter a Number:</label>
+            <input id="Number" type="number" name="Number" min="10" max="100"value="20">
+        </p>
+        <p>
+            <button>
+                Submit
+            </button>
+            <button type="button">
+                Please do not submit the form
+            </button>
+        </p>
+    </form>
+    <h2>Research Box</h2>
+    <form action="https://www.reddit.com/search">
+        <input type="text" placeholder="Ask to Reddit" name="q">
+        <button>Search in Reddit</button>
+    </form>
+    <form action="https://www.google.com/search">
+        <input type="text" placeholder="Ask to Google" name="q">
+        <button>Search in Google</button>
+    </form>
+    <form action="https://www.youtube.com/results">
+        <input type="text" placeholder="Ask to Youtube" name="search_query">
+        <button>Search in Youtube</button>
+    </form>
+
+    <h2>More Inputs!</h2>
+    <form action="/birds">
+        <input type="checkbox" name="agree_tos" id="agree">
+        <label for="agree">I agree to everything</label>
+        <button>Submit</button>
+        <p>
+            <label for="s">Small</label>
+            <input type="radio" name="size" id="s" value="Small">
+            <label for="m">Midium</label>
+            <input type="radio" name="size" id="m" value="Midium">
+            <label for="l">Large</label>
+            <input type="radio" name="size" id="l" value="Large">
+            <p>
+                <label for="animal">Choose your favorite animal!</label>
+                <select name="animal" id="animal">
+                    <option value="">Please choose an option</option>
+                    <option value="Dog">Dog</option>
+                    <option value="Cat">Cat</option>
+                    <option value="Monkey">Monkey</option>
+                    <option value="Fish">Fish</option>
+                    <option value="Bird">Bird</option>
+                    <option value="Lizard">Lizard</option>
+                    <option value="Elephant">Elephant</option>
+                </select>
+            </p>
+            <p>
+                <label for="happy">How are you today?</label>
+                <input type="range" id="happy" min="1" max="10" name="happy" value="5">
+            </p>
+            <p>
+                <label for="rq">Any Request?</label>
+            <p>
+                <textarea id="rq" name="request" placeholder="type in here" rows="10" cols="40"></textarea>
+            </p>
+            </p>
+            <button>Submit</button>
+    </form>
+</body>
+</html>
