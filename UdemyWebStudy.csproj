@@ -8,4 +8,10 @@
 
   <PropertyGroup Condition=" '$(RunConfiguration)' == 'https' " />
   <PropertyGroup Condition=" '$(RunConfiguration)' == 'http' " />
+  <ItemGroup>
+    <None Remove="WebStudyFiles\HTMLStudies\CSSStudies\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="WebStudyFiles\HTMLStudies\CSSStudies\" />
+  </ItemGroup>
 </Project>
