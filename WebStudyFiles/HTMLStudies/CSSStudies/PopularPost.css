@@ -1,8 +1,30 @@
 ﻿#login {
-    background-color:hotpink;
+    background-color:mediumpurple;
     color: #ffffff;
 }
 
 #search {
-    background-color:lightyellow;
+    background-color:lightpink;
+}
+h1 {
+    font-family : 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: red;
+}
+
+a {
+    color: green;
+}
+
+li a {
+    color: red;
+}
+
+span {
+    color: rgb(150,0,150);
+    font-size: 10px;
+}
+.tag {
+    background-color: maroon;
+    color:white;
+    font-size:10px;
 }
