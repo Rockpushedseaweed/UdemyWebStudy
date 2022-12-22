@@ -1,0 +1,11 @@
+﻿h1 {
+    text-align: center;
+    font-weight: 700;
+    font-family:futura, Helvetica;
+    text-decoration: #000000 underline wavy;
+    font-size:60px;
+}
+
+a {
+    text-decoration: #000000 underline line-through;
+}
