@@ -1,0 +1,111 @@
+﻿div {
+    width: 280px;
+    background-color: #ffffff;
+}
+section {
+    padding: 5px;
+}
+
+#accountcontents div {
+    padding: 5px;
+}
+
+h1 {
+    background-color: #ffffff;
+    width: 60px;
+    text-align: center;
+}
+
+#santa {
+    font-size: small;
+
+#santacont {
+    font-weight: 900;
+}
+
+.account {
+    font-size: small;
+}
+
+.money {
+    font-weight:bold;
+    font-size: x-large;
+}
+
+a {
+    text-decoration:underline;
+}
+
+a:hover {
+    font-size: smaller;
+}
+
+a:active {
+    color: pink;
+}
+
+#one {
+    border-width:2px;
+    border-color: gray;
+    border-style: solid;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin-top:4px;
+    margin-bottom:4px;
+}
+
+#two {
+    border-width: 2px;
+    border-color: gray;
+    border-style: solid;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+#three {
+    border-width: 2px;
+    border-color: gray;
+    border-style: solid;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+#four {
+    border-width: 2px;
+    border-color: gray;
+    border-style: solid;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+#five {
+    border-width: 2px;
+    border-color: gray;
+    border-style: solid;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.account, .money {
+    width:180px;
+}
+
+button {
+    padding: 6px 110px;
+    background-color: #258cdb;
+    color: white;
+    border-color: #258cdb;
+    box-sizing: border-box;
+    border-radius: 6px;
+    font-size: 12px;
+}
+
+ul {
+    font-size: 1.2rem;
+}
+    

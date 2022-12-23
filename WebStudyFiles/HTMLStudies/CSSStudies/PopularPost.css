@@ -28,3 +28,12 @@ span {
     color:white;
     font-size:10px;
 }
+
+button:hover {
+    background-color: #dddddd;
+    color: white;
+}
+
+button:active {
+    background-color: red;
+}
