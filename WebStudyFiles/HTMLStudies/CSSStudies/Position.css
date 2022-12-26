@@ -1,0 +1,37 @@
+﻿div {
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    border: 2px solid black;
+    margin: 10px;
+    display: inline-block;
+}
+
+#middle {
+    background-color: pink;
+}
+
+/*Static- 고정.*/
+#static #middle {
+    position: static;
+    top: 100px;
+}
+
+/*Relative- 현재 위치에서 포지션 위치.*/
+#relative #middle {
+    position: relative;
+    left: 20%;
+}
+
+/*Absolute- 포함된 최상위 부모 내에서 포지션 위치.*/
+#Absolute #middle {
+    position: absolute;
+    right: 10px;
+}
+
+
+/*Fixed- 전체에서 포지션 위치.*/
+#Fixed #middle {
+    position: fixed;
+    top: 10px;
+}
