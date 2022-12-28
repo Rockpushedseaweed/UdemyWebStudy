@@ -1,0 +1,26 @@
+﻿body {
+    background-color: #2f455C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+button {
+    background-color: #2f455C;
+    color: #34f5c5;
+    border: 2px solid;
+    border-color: #34f5c5;
+    padding: 1em 2em;
+    font-size: 1em;
+    transition: all 0.2s;
+}
+
+button:hover {
+    border-color: #1dcdfe;
+    color: white;
+    box-shadow: 0em 0em 6em 1em;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+}
+

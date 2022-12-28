@@ -1,0 +1,17 @@
+﻿
+section {
+    width: 80%;
+    height: 800px;
+    background-color: purple;
+    background-image: url("https://www.vitalthrills.com/wp-content/uploads/2022/09/avatarrerelease10-729x1080.jpg.webp");
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: poppins;
+    font-weight:100;
+    font-size:100px;
+    color: white;
+}

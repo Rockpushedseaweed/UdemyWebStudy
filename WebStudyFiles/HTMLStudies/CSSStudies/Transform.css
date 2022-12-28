@@ -29,3 +29,11 @@ h1:nth-of-type(1):hover {
 h1:nth-of-type(2):hover {
     transform: scale(1.2);
 }
+
+section:first-of-type h1:nth-of-type(3) {
+    transform: translateX(200px);
+}
+
+section:first-of-type h1:nth-of-type(4) {
+    transform: translateX(-200px);
+}
