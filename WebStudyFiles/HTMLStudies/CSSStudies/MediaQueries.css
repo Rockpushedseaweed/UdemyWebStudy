@@ -5,6 +5,16 @@
 
 nav {
     font-size: 1.5em;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    border: 1px solid red;
+    flex: 1;
+    max-width:50%;
+    display: flex;
+    justify-content: space-around;
 }
 
 ul, li {
@@ -13,8 +23,19 @@ ul, li {
     padding:0;
 }
 
-@media (width: 800px) {
+@media (max-width:768px) {
     h1 {
-        color: purple;
+        font-size: 4em;
+    }
+    nav {
+        flex-direction:column;
+    }
+    nav ul {
+            flex-direction: column;
+        }
+}
+@media (max-width: 576px) {
+    h1 {
+        font-size: 3em; 
     }
 }
