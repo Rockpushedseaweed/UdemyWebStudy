@@ -1,0 +1,162 @@
+﻿body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #60a9ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.panel {
+    background-color: white;
+    border-radius: 10px;
+    max-width: 100%;
+    width: 960px;
+    height: 580px;
+    display: flex;
+    justify-content: center;
+    padding: 15px 25px;
+}
+
+.one1, button {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.pricing-item {
+    color: #016ff9;
+    font-size: 12px;
+    line-height: 2;
+    font-weight: 700;
+    border-top: 1px solid #e1f1ff;
+    padding: 15px 0px;
+}
+
+.one1 button {
+    border: 1px solid #9dd1ff;
+    color: #348efe;
+    padding: 15px 35px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.one2, button {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+    .one2 button {
+        color: white;
+        background-color: #48aaff;
+        padding: 15px 35px;
+        border: none;
+        border-radius: 10px;
+    }
+
+.one3, button {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+    .one3 button {
+        border: 1px solid #9dd1ff;
+        color: #348efe;
+        padding: 15px 35px;
+        border-radius: 10px;
+        background-color: white;
+    }
+
+.one1 ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+.one2 ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+.one3 ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+.one1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 25px 50px;
+    border-right: 1px solid #e1f1ff;
+}
+
+    .one1 img {
+        max-width: 100%;
+        width: 200px;
+        padding-bottom: 20px;
+    }
+
+.one2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 25px 50px;
+    border-right: 1px solid #e1f1ff;
+}
+
+    .one2 img {
+        max-width: 100%;
+        width: 200px;
+        padding-bottom: 20px;
+    }
+
+.one3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 25px 50px;
+    margin: 10px 0px;
+}
+
+    .one3 img {
+        max-width: 100%;
+        width: 200px;
+        padding-bottom: 20px;
+    }
+
+figcaption {
+    color: #888;
+    letter-spacing: 1px;
+    font-weight: 600;
+    padding-bottom: 25px;
+}
+
+#ullu1, #ullu2, #ullu3 {
+    font-weight: 700;
+    font-size: 32px;
+}
+
+@media (max-width: 960px) {
+    .panel {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        background-color: white;
+    }
+
+    .one1 {
+        border: none;
+    }
+
+    .one2 {
+        border: none;
+    }
+
+    .one3 {
+        border: none;
+    }
+}

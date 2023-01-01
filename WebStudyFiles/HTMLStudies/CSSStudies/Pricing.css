@@ -51,3 +51,55 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
+
+html {
+    box-sizing: border-box;
+    font-family:'Open Sans', sans-serif;
+}
+
+body {
+    background-color: #60a9ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.panel {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px 25px;
+    width: 100%;
+    max-width: 960px;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.one1, .one2 {
+    border-bottom: 1px solid #e1f1ff;
+}
+
+img {
+    margin-bottom: 25px;
+    max-width: 100%;
+}
+
+figcaption {
+    color: #888;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.pricing-item {
+    margin: 25px 0 25px;
+    color: #016ff9;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 12px;
+}
+
+.pricing-item1 {
+    display: inline-block;
+}
