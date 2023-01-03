@@ -10,8 +10,10 @@
   <PropertyGroup Condition=" '$(RunConfiguration)' == 'http' " />
   <ItemGroup>
     <None Remove="WebStudyFiles\HTMLStudies\CSSStudies\" />
+    <None Remove="WebStudyFiles\JavascriptStudies\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="WebStudyFiles\HTMLStudies\CSSStudies\" />
+    <Folder Include="WebStudyFiles\JavascriptStudies\" />
   </ItemGroup>
 </Project>
