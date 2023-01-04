@@ -1,4 +1,4 @@
-﻿/*
+﻿
  * Modulo(%) 나머지
  * 9%2= 1
  * exponensation(**) 제곱

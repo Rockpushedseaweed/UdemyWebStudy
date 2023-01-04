@@ -1,0 +1,24 @@
+/*
+thing.method(arg)
+어떤거에서.어떤 매소드 써서. 뭘 찾을지
+
+ex) "hello".length
+->5
+
+두개의 매소드 연결지어서 지을 수  있음.
+
+.indexof() ->어떤 글자가 제일 처음 포함되어있는지 위치 찾아주기.
+.slice() -> str에서 특정 부분을 잘라주는 매소드.
+"haha that is so funny".slice(5) -> "that is so funny"
+"haha that is so funny".slice(5, 9[어디까지 자를지]) -> "that"
+음수로 설정하면 끝부터 자름
+
+.replace -> 두가지 str를 교체함.
+
+let hi = "hihi"
+hi.replace(hi)
+
+.repeat() -> ()반복
+> "hi".repeat(10)
+'hihihihihihihihihihi'
+
