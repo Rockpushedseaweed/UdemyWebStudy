@@ -16,4 +16,5 @@ let colors = ['red', 'orange', 'yellow'];
 .indexOf : 배열 안에서 몇번째로 위치하는지 알려줌.
 .reverse : 배열의 순서를 뒤집음.
 .slice(start, end) : 배열의 일부를 복사.
+.splice(start, 몇개 없앨지, '무엇을 넣을지'): 어디부터 몇개를 없애고, 옵션으로 무엇을 다시 채워넣을건지 정하는 매소드.
 
