@@ -43,6 +43,11 @@
 //     }
 // }
 
+// for...of
+// for(variable of iterable){
+//    statement
+// }
+
 // *While loops
 // 반복 수를 정해놓지 않을 경우 사용.
 
