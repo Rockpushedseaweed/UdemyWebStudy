@@ -18,3 +18,29 @@ let colors = ['red', 'orange', 'yellow'];
 .slice(start, end) : 배열의 일부를 복사.
 .splice(start, 몇개 없앨지, '무엇을 넣을지'): 어디부터 몇개를 없애고, 옵션으로 무엇을 다시 채워넣을건지 정하는 매소드.
 
+function returnDay(num){
+    if(num == 1){
+        return "Monday"
+    }
+  else if(num == 2)
+  {
+        return "Tuesday"
+    }
+  else if(num == 3){
+        return "Wednesday"
+    }
+  else if(num == 4){
+        return "Thursday"
+    }
+  else if(num == 5){
+        return "Friday"
+    }
+  else if(num == 6){
+        return "Saterday"
+    }
+  else if(num == 7){
+        return "Sunday"
+    }
+  else return null}
+
+returnDay(7)
