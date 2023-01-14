@@ -1,0 +1,31 @@
+// 함수를 인수로 받아들이는 forEach
+// -배열 안의 아이템 각각에 대해 함수와 코드를 한번씩 실행.
+// ->어떤 함수를 넣든 상관없이 함수가 아이템별로 한번씩 호출되고, 각각의 아이템이 함수에 자동으로 전달 됨.
+
+// ex)
+// const numbers = [1,2,3,4,5,6,7,8,9,10]
+// function print(element){
+//     console.log(element);
+// }
+
+// print(numbers[0])
+// print(numbers[1])
+// ->
+// numbers.forEach(print)
+
+// -> 아니면 함수를 forEach 안에서 호출해도 됨.
+// numbers.forEach(function(el){
+//     console.log(el)
+// })
+
+// 아니면 for of 로 하는 방법도 있음.
+// for(let el of numbers){
+//     console.log(el);
+// }
+
+// **짝수만 출력하기
+// numbers.forEach(function (el){
+//     if(el %2 === 0){
+//         console.log(el)
+//     }
+// })

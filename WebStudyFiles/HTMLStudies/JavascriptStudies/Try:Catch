@@ -1,0 +1,26 @@
+// 둘은 별개, 하지만 항상 같이 일하면서 JS의 오류 및 예외를 처리.
+// 특히 오류를 잡아서 코드 정지가 일어나지 않게 함.
+
+// ex)
+// hello.toUpperCase();
+
+// ->
+// try {
+//     hello.toUpperCase();
+// } catch{
+//     console.log("Error!");
+// }
+
+// console.log("After")
+
+// + 추가로 오류가 낫을때 유용한 함수
+
+// function yell(msg){
+//     try{
+//         console.log(msg.toUpperCase().repeat(3));
+//     } catch (e) {
+//         console.log(e)
+//         console.log("plz pass a string next time!");
+//     }
+// }
+// -> yell('hello')
